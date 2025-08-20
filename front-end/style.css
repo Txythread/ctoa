@@ -1,3 +1,45 @@
-* {
-	background-color: green;
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 150, 150, 1);
 }
+
+h1 {
+	font-size: 4.7vh;
+	margin-bottom: 6vh;
+	margin-top: -2vh;
+}
+
+h2 {
+	font-size: 3vh;
+}
+
+input {
+	font-size: 3vh;
+	height: 4vh;
+	padding-right: 0.5vh;
+	padding-left: 0.5vh;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	border-radius: 1vh;
+}
+
+.main-content {
+	margin: auto;
+	width: 30vw;
+	height: 30vh;
+	position: relative;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	border-radius: 10vh;
+	text-align: center;
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+	
