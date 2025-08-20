@@ -1,7 +1,7 @@
 from flask import Flask
 
 
-WEBSITE_DIR = "../front-end/"
+WEBSITE_DIR = "../docs/"
 
 app = Flask(__name__, static_folder=WEBSITE_DIR, static_url_path='')
 
